@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(227, 25, 234), #f5af19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.card{
+    background: rgb(233, 163, 163);
+
+}
+.inputTask{
+    display: flex;    
+}
+.inputTask input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 20px;
+    outline: none;
+}
+.inputTask button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background:rgb(25, 245, 87);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+#task{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ul li{
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
